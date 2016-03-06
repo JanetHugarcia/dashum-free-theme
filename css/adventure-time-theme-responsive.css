@@ -1,0 +1,35 @@
+/*Inserta tu Codigo Responsive*/
+@media (min-width: 768px){
+	#sidebar {
+    width: 210px;
+    height: 100%;
+    position: fixed;
+    background-color: #424A5D;
+	}
+	
+}
+@media screen and (max-width: 767px){
+	#main-content{
+		margin-left: 0px!important;
+	}
+	.sidebar-menu{
+		position: fixed;
+		background-color:  #424A5D;
+		z-index: 1000;
+		width: 100%;
+	}
+	.wrapper {
+    	margin-top: 30px;
+	}
+	.mt{
+		
+    margin-top: 0px; 
+	}
+	.main-chart {
+    padding-top: 0px;
+	}
+	.btn {
+    margin-bottom: 5px;
+	}
+
+}

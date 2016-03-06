@@ -1,0 +1,247 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+/*Escribe aqui tu codigo */
+body{
+	color:#797979;
+}
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1002;
+}
+.header, .footer {
+    min-height: 60px;
+    padding: 15px;
+}
+header{
+	background-color: #424A5D;
+	border-bottom: 1px solid #293241;
+}
+#sidebar{
+	padding-top: 60px;
+	background-color: #424A5D;
+}
+#sidebar h5 {
+    color: #f2f2f2;
+    font-weight: 700;
+}
+.sidebar-menu{
+	padding:25px 5px 5px;
+	margin-bottom: 0;
+}
+.sidebar-menu li{
+	margin-bottom: 3px;
+}
+.sidebar-menu li a{
+	color:rgba(255,255,255,.7);
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	padding: 15px 0 15px 10px;
+    font-size: 12px;
+}
+
+.sidebar-menu>li>a:hover{
+	transition: all 1s;
+	background-color:#E26EAB
+}    
+.sidebar-menu>li>a.active,.sidebar-menu>li>a:focus{
+	background-color: #9C4C9D;
+}
+.wrapper {
+    display: inline-block;
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    width: 100%;
+}
+.mt {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+#main-content{
+	margin-left: 210px;
+	background-color: #F2F2F2;
+}
+header a{
+	color:white;
+}
+.logout{
+    font-size: 12px;
+    border-radius: 4px;
+    background: #9C4C9D;
+    margin-right: 20px;
+}
+.nav > li > a {
+    padding: 8px 15px;
+}
+.sidebar-toggle-box {
+    padding-right: 20px;
+	color:white;
+	cursor:pointer;
+}
+.logo,.sidebar-toggle-box{
+	font-size: 20px;
+}
+a.logo:hover{
+	text-decoration: none;
+	color:white;
+}
+/*--------------*/
+.main-chart {
+    padding-top: 50px;
+}
+.box1 {
+    text-align: center;
+    color: #989898;
+    border-bottom: 1px solid #A7A7A7;
+}
+.box1 h3{
+	line-height: 2;
+}
+.box1 span {
+    font-size: 50px;
+    padding-top: 15px;
+}
+.box0:hover p {
+    color: #ff865c;
+    background-color: rgba(255,255,255,.8);
+}
+.box0:hover .box1 {
+    border-bottom: 1px solid transparent;
+}
+.box0 p {
+    text-align: center;
+    color: transparent;
+    font-size: 11px;
+}
+.box0:hover{
+	background-color: rgba(255,255,255,.8);
+	box-shadow: 0 1px  3px rgba(0,0,0,.2);
+}
+.page-header {
+    padding-bottom: 0px; 
+    margin:0px;
+    border-bottom: 1px solid #eee;
+}
+/*ds----*/
+.ds {
+    background: #ffffff;
+    padding-top: 20px;
+}
+.ds h3 {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 0 10px;
+    line-height: 60px;
+    margin: 0;
+    background: #9C4C9D;
+    text-align: center;
+}
+.ds .thumb {
+    width: 30px;
+    margin: 0 10px 0 20px;
+    display: block;
+    float: left;
+}
+.ds .desc {
+    border-bottom: 1px solid #eaeaea;
+    display: inline-block;
+    padding: 15px 0;
+    width: 100%;
+}
+.ds .details {
+    width: 170px;
+    float: left;
+}
+.bg-theme {
+    background-color: #68dff0;
+}
+.ds p > muted {
+    font-size: 9px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #666666;
+}
+.ds > .desc p {
+    font-size: 11px;
+}
+/*-------*/
+.divider{
+	border:1px solid #EAEAEA;
+}
+.showback{
+	background-color: white;
+	padding:15px;
+	margin-bottom: 15px;
+	box-shadow: 0 3px  2px #aab2bd;
+}
+.showback p{
+	font-size: 12px;
+}
+.buttons a{
+	margin-right: 15px;
+}
+.wr{
+    margin-top: 15px;
+}/*form*/
+.form-panel,.content-panel {
+    background: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 2px #aab2bd;
+    }
+.form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: left; 
+}
+/*contacto*/
+.form-login {
+    max-width: 330px;
+    margin: 100px auto 0;
+    background: #fff;
+    border-radius: 5px;
+}
+.form-login h2.form-login-heading {
+    margin: 0;
+    padding: 25px 20px;
+    text-align: center;
+    background: #68dff0;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.login-wrap {
+    padding: 20px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+}
+.bck-gray{
+	background-color:#F2F2F2;
+}
+.registration{
+	text-align: center;
+}
