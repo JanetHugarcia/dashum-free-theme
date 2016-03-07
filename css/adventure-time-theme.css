@@ -57,7 +57,7 @@ header{
 	transition: all 1s;
 	background-color:#E26EAB
 }    
-.sidebar-menu>li>a.active,.sidebar-menu>li>a:focus{
+.sidebar-menu>li>a.active{
 	background-color: #9C4C9D;
 }
 .wrapper {
